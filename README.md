@@ -24,6 +24,7 @@ Also the traffic to the clients must be encrypted.
     * Build a Docker image
     * Push the Docker image to a public registry ( you can use Docker Hub )
     * Deploy the application inside the K8S cluster ( for that, you should pick an approach that you think is best )
+    * If you think that there are some additional steps that can be added, feel free to implement them
 
 - The application must be exposed publicly. You can use https://nip.io/ instead of a real domain ( Don't worry if you get an error, while issuing the certificates for the nip.io)
 
