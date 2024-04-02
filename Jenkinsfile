@@ -3,8 +3,7 @@ pipeline {
   stages {
     stage ('Build') {
       steps {
-        echo 'Running build automation'
-        sh './gradlew build --no-daemon'
+        sh 'mvn -B -DskipTests clean package'
       }
     }
   }
