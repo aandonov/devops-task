@@ -3,10 +3,14 @@ plugins {
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'java'
 }
-
-group = 'com.example'
-version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '1.8'
+node {
+	download = true
+}
+//group = 'com.example'
+//version = '0.0.1-SNAPSHOT'
+//sourceCompatibility = '1.8'
+//declarate a build task 
+task build
 
 repositories {
 	mavenCentral()
