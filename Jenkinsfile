@@ -4,7 +4,7 @@ pipeline {
     stage ('Build') {
       steps {
         echo 'Running build automation'
-        sh 'gradlew build --no-daemon'
+        sh './var/lib/jenkins/workspace/devops-task-multibranch_master/App/gradlew build --no-daemon'
       }
     }
   }
