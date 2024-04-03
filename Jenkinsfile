@@ -4,7 +4,7 @@ pipeline {
     stage ('Build') {
       steps {
         echo 'Running build automation'
-        sh './var/lib/jenkins/workspace/devops-task-multibranch_master/App/gradlew build'
+        sh './gradlew build'
       }
     }
   }
